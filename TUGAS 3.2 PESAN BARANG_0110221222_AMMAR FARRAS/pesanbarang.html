@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+        <td>
+            <table style="border: 2px solid ; padding: 15px 15px;">
+                <tr>
+                    <td colspan="4" style="text-align: center;padding: 10px;"> 
+                        Home &emsp; | &emsp; Generate Link &emsp;| &emsp;Transaction History &emsp; | &emsp; Policy &emsp; | &emsp; Logout
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <img src="download.jpg" alt="" style="width: 100px;height: 100px;"><br>
+                        <input type="file">
+                    </td>
+                    <td><label for="titlehere">Title Here</label></td>
+                    <td>:</td> 
+                    <td><input type="text"          id="titlehere"></td>
+                </tr>
+                <tr>
+                    <td><label for="description">Description</label></td>
+                    <td>:</td>
+                    <td><textarea id="description" cols="20" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td rowspan="9"></td>
+                    <td><label for="accnum">Account Number</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="accnum"></td>
+                </tr>
+                <tr>
+                    <td>Bank</td>
+                    <td>:</td>
+                    <td><select>
+                        <option>HSBC</option>
+                        <option>BCA</option>
+                        <option>BNI</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="acchol">Account Holder</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="acchol"></td>
+                </tr>
+                <tr>
+                    <td><label for="transa">Transaction</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="number" id="transa"><br>
+                        *if the transaction is for 3 person, choose 3 from the drop-drow list
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2"></td>
+                    <td><input type="checkbox"  id="sendto"><label for="sendto">Send to Mobile Phone</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"  id="sendemail"><label for="sendemail">Send to Email</label></td>
+                </tr>
+                <tr>
+                    <td><label for="sendtophone">Send to Mobile Phone</label></td>
+                    <td>:</td>
+                    <td><input type="text"  id="sendtophone"></td>
+                </tr>
+                <tr>
+                    <td><label for="sendtomail">Send to Email</label></td>
+                    <td>:</td>
+                    <td><input type="text"  id="sendtomail"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="padding-top: 20px;"><input type="submit" value="Generate Nabr Link"></td>
+                </tr>
+            </table>
+        </td>
+        </tr>
+    </table>
+</body>
+</html>
